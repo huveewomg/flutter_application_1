@@ -215,7 +215,6 @@ class _SignInState extends State<SignIn> {
                           Logo(Logos.facebook_f),
                           Logo(Logos.twitter),
                           Logo(Logos.google),
-                          Logo(Logos.apple),
                         ],
                       ),
                       const SizedBox(

@@ -14,7 +14,7 @@ class Welcome extends StatelessWidget {
       child: Column(
         children: [
           Flexible(
-              flex: 8,
+              flex: 5,
               child: Container(
                 padding: const EdgeInsets.symmetric(
                   vertical: 0,
@@ -26,16 +26,18 @@ class Welcome extends StatelessWidget {
                     text: const TextSpan(
                       children: [
                         TextSpan(
-                            text: 'Welcome Back!\n',
-                            style: TextStyle(
+                          text: 'Welcome Back!1\n',
+                          style: TextStyle(
                               fontSize: 45.0,
                               fontWeight: FontWeight.w600,
-                            )),
+                              color: Colors.black),
+                        ),
                         TextSpan(
                             text:
-                                '\nEnter personal details to your employee account',
+                                '\nHop right back in and continue your journey with us!',
                             style: TextStyle(
                               fontSize: 20,
+                              color: Colors.black87,
                               // height: 0,
                             ))
                       ],
